@@ -22,7 +22,7 @@ This project covers essential Operations Research (OR) and mathematical optimiza
 
 ### File Structure & Functionality
 Here is a breakdown of what each file in this repository does:
-* **`1. Assignment-1.ipynb`** : The main and only Jupyter Notebook file containing the complete pipeline. It includes the problem data structures (locations, requirements, costs, demands), the Gurobi model formulation (variables, constraints, objective), the optimization execution, and the final visualization of the supply chain network using Matplotlib.
+* **`facloc_prod.ipynb`** : The main and only Jupyter Notebook file containing the complete pipeline. It includes the problem data structures (locations, requirements, costs, demands), the Gurobi model formulation (variables, constraints, objective), the optimization execution, and the final visualization of the supply chain network using Matplotlib.
 
 ---
 
