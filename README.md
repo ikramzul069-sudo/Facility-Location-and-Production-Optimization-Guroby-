@@ -37,14 +37,15 @@ Before running this project, ensure your local environment has the following dep
 pip install gurobipy matplotlib jupyterlab
 ```
 ## 3. Compilation
-Since this project uses Python and Jupyter Notebook, traditional compilation (like make or gcc) is not required. Instead, you need to launch the Jupyter environment to interpret the code.
+Since this project uses Python and Jupyter Notebook, you need to launch the Jupyter environment to interpret the code.
 
 Open your terminal in the project directory and start the Jupyter Notebook server:
 
 ```Bash
 jupyter notebook
-This command will open a new tab in your web browser. Click on 1. Assignment-1.ipynb to open the notebook.
 ```
+This command will open a new tab in your web browser. Click on facloc_prod.ipynb to open the notebook.
+
 ## 4. Execution
 Unlike a command-line executable, you run this simulation interactively cell by cell.
 
@@ -59,8 +60,10 @@ Press Shift + Enter to run each cell sequentially, or click "Run All" from the t
 Expected Results:
 Once the optimization cell (m.optimize()) finishes executing, you should see the following outputs:
 
-Gurobi Log: The mathematical solver log detailing the optimization process, heuristics, and the MIP gap.
+* Gurobi Log: The mathematical solver log detailing the optimization process, heuristics, and the MIP gap.
 
-Optimal Solution Data: Text output confirming Optimal solution found along with the maximized Total Revenue value. It will also print exactly which facilities were chosen to open, their production amounts, and the shipped quantities to various demand nodes.
+* Optimal Solution Data: Text output confirming Optimal solution found along with the maximized Total Revenue value. It will also print exactly which facilities were chosen to open, their production amounts, and the shipped quantities to various demand nodes.
 
-Network Visualization: A Matplotlib 2D graph popping up at the end of the notebook, visually mapping the facility locations, demand nodes, and drawing the optimal shipping routes across the grid.
+* Network Visualization: A Matplotlib 2D graph popping up at the end of the notebook, visually mapping the facility locations, demand nodes, and drawing the optimal shipping routes across the grid.
+* <img width="1280" height="980" alt="image" src="https://github.com/user-attachments/assets/80d04968-822f-4036-85a5-25d26ff353b3" />
+
